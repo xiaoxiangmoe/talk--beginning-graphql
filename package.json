@@ -1,0 +1,15 @@
+{
+  "name": "@-.-/talk--beginning-graphql",
+  "version": "0.1.0",
+  "repository": "https://github.com/xiaoxiangmoe/talk--beginning-graphql.git",
+  "author": "ZHAO Jinxiang <xiaoxiangmoe@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "mdx-deck presentation/index.mdx",
+    "build": "mdx-deck build presentation/index.mdx"
+  },
+  "dependencies": {
+    "mdx-deck": "^1.8.2"
+  }
+}

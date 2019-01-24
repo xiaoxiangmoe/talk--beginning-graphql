@@ -1,0 +1,95 @@
+# Beginning GraphQL
+
+—— ZHAO Jinxiang
+
+---
+
+## What is GraphQL
+
+A query language for your API
+
+---
+
+## Why GraphQL
+
+* Developer experience
+* Declarative data fetching
+* Improved performance
+
+---
+
+## apollo-server-lambda
+
+---
+
+## schema
+
+
+* query
+* mutation
+
+```gql
+schema {
+  query: Query
+  mutation: Mutation
+}
+```
+
+---
+
+## type
+
+* fields
+* arguments
+
+---
+
+## directive
+
+```gql
+directive @isAuthenticated on FIELD | FIELD_DEFINITION
+directive @hasRole(role: String) on FIELD | FIELD_DEFINITION
+```
+
+```ts
+schemaDirectives
+```
+
+---
+
+## scalar
+
+ipv4 string, ipv6 string, moment, date, rgb, hls, etc.
+
+```gql
+scalar Date
+```
+
+```ts
+resolvers
+```
+---
+
+## mocks
+
+---
+
+## resolvers
+
+---
+
+## data source
+
+* REST API
+* Database
+
+---
+
+## fetch data
+
+* GraphiQL
+* Apollo client
+
+---
+
+## The End
