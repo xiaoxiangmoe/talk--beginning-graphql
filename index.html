@@ -5,7 +5,7 @@
 <meta name='viewport' content='width=device-width,initial-scale=1'>
 <style>*{box-sizing:border-box}body{font-family:system-ui,sans-serif;margin:0}</style>
 <meta name='generator' content='mdx-deck'>
-<style data-styled-components="hsARDy kmKUJZ gKaMTo zIEGn CAuLq vIzDp kPOGYN cXgiMa eCoqJu kaUAEP gtARdA hOCGEu fbxTAJ bNhvRs">
+<style data-styled-components="hsARDy kmKUJZ gKaMTo zIEGn CAuLq vIzDp kPOGYN byfFmt lkIJBD iLvMQI gmKbQu gtCLgp cXgiMa eCoqJu kaUAEP gtARdA hOCGEu fbxTAJ bNhvRs">
 /* sc-component-id: sc-bdVaJa */
 .sc-bdVaJa {} .eCoqJu{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin-bottom:8px;margin-left:auto;margin-right:auto;} @media print{.eCoqJu{display:none;}}
 /* sc-component-id: sc-bwzfXH */
@@ -30,11 +30,30 @@
 .sc-jzJRlG {} .vIzDp{line-height:1.25;font-size:3em;margin-bottom:16px;margin-top:16px;color:heading;}
 /* sc-component-id: sc-cSHVUG */
 .sc-cSHVUG {}
+/* sc-component-id: sc-kAzzGY */
+.sc-kAzzGY {} .lkIJBD{line-height:1.25;font-size:2em;margin-bottom:16px;margin-top:16px;color:heading;}
+/* sc-component-id: sc-chPdSV */
+.sc-chPdSV {}
 /* sc-component-id: sc-kkGfuU */
-.sc-kkGfuU {} .kPOGYN{font-size:1.5em;}</style>
+.sc-kkGfuU {} .kPOGYN{font-size:1.5em;}
+/* sc-component-id: sc-iAyFgw */
+.sc-iAyFgw {} .iLvMQI{text-align:left;font-size:1.5em;text-align:left;}
+/* sc-component-id: sc-eHgmQL */
+.sc-eHgmQL {}
+/* sc-component-id: sc-jWBwVP */
+.sc-jWBwVP {} .gtCLgp{font-family:Menlo,monospace;text-align:left;white-space:pre-wrap;font-size:1em;margin:0px;padding:8px;color:#f0f;background-color:#333;}</style>
 </head>
 <body>
-<div id=root><div><div class="sc-dnqmqq hsARDy" mode="NORMAL" step="0" width="100vw" height="100vh" color="text"><div class="sc-bZQynM kmKUJZ"><div class="sc-gzVnrw gKaMTo"><div class="sc-htoDjs zIEGn"><div><h1 class="sc-cSHVUG CAuLq sc-jzJRlG vIzDp" font-size="4" color="heading">Beginning GraphQL</h1><p class="sc-kkGfuU kPOGYN" font-size="2">—— ZHAO Jinxiang</p></div></div><div class="sc-htoDjs zIEGn"><div></div></div></div></div></div></div><div class="sc-htpNat cXgiMa"><div class="sc-bdVaJa eCoqJu"><button class="sc-bwzfXH kaUAEP" title="go to: 0" color="text"></button><button class="sc-bwzfXH gtARdA" title="go to: 1" color="text"></button></div></div><div class="sc-ifAKCX hOCGEu sc-bxivhb fbxTAJ" role="button" title="Previous Slide"></div><div class="sc-EHOje bNhvRs sc-bxivhb fbxTAJ" role="button" title="Next Slide"></div></div>
+<div id=root><div><div class="sc-dnqmqq hsARDy" mode="NORMAL" step="0" width="100vw" height="100vh" color="text"><div class="sc-bZQynM kmKUJZ"><div class="sc-gzVnrw gKaMTo"><div class="sc-htoDjs zIEGn"><div><h1 class="sc-cSHVUG CAuLq sc-jzJRlG vIzDp" font-size="4" color="heading">Beginning GraphQL</h1><p class="sc-kkGfuU kPOGYN" font-size="2">—— ZHAO Jinxiang</p></div></div><div class="sc-htoDjs zIEGn"><div><h2 class="sc-chPdSV byfFmt sc-kAzzGY lkIJBD" font-size="3" color="heading">What is GraphQL</h2><p class="sc-kkGfuU kPOGYN" font-size="2">A query language for your API</p></div></div><div class="sc-htoDjs zIEGn"><div><h2 class="sc-chPdSV byfFmt sc-kAzzGY lkIJBD" font-size="3" color="heading">Why GraphQL</h2><ul class="sc-iAyFgw iLvMQI" font-size="2"><li class="sc-eHgmQL gmKbQu">Developer experience</li><li class="sc-eHgmQL gmKbQu">Declarative data fetching</li><li class="sc-eHgmQL gmKbQu">Improved performance</li></ul></div></div><div class="sc-htoDjs zIEGn"><div><h2 class="sc-chPdSV byfFmt sc-kAzzGY lkIJBD" font-size="3" color="heading">apollo-server-lambda</h2></div></div><div class="sc-htoDjs zIEGn"><div><h2 class="sc-chPdSV byfFmt sc-kAzzGY lkIJBD" font-size="3" color="heading">schema</h2><ul class="sc-iAyFgw iLvMQI" font-size="2"><li class="sc-eHgmQL gmKbQu">query</li><li class="sc-eHgmQL gmKbQu">mutation</li></ul><pre class="language-gql sc-jWBwVP gtCLgp" font-size="1" color="pre">schema {
+  query: Query
+  mutation: Mutation
+}
+</pre></div></div><div class="sc-htoDjs zIEGn"><div><h2 class="sc-chPdSV byfFmt sc-kAzzGY lkIJBD" font-size="3" color="heading">type</h2><ul class="sc-iAyFgw iLvMQI" font-size="2"><li class="sc-eHgmQL gmKbQu">fields</li><li class="sc-eHgmQL gmKbQu">arguments</li></ul></div></div><div class="sc-htoDjs zIEGn"><div><h2 class="sc-chPdSV byfFmt sc-kAzzGY lkIJBD" font-size="3" color="heading">directive</h2><pre class="language-gql sc-jWBwVP gtCLgp" font-size="1" color="pre">directive @isAuthenticated on FIELD | FIELD_DEFINITION
+directive @hasRole(role: String) on FIELD | FIELD_DEFINITION
+</pre><pre class="language-ts sc-jWBwVP gtCLgp" font-size="1" color="pre">schemaDirectives
+</pre></div></div><div class="sc-htoDjs zIEGn"><div><h2 class="sc-chPdSV byfFmt sc-kAzzGY lkIJBD" font-size="3" color="heading">scalar</h2><p class="sc-kkGfuU kPOGYN" font-size="2">ipv4 string, ipv6 string, moment, date, rgb, hls, etc.</p><pre class="language-gql sc-jWBwVP gtCLgp" font-size="1" color="pre">scalar Date
+</pre><pre class="language-ts sc-jWBwVP gtCLgp" font-size="1" color="pre">resolvers
+</pre></div></div><div class="sc-htoDjs zIEGn"><div><h2 class="sc-chPdSV byfFmt sc-kAzzGY lkIJBD" font-size="3" color="heading">mocks</h2></div></div><div class="sc-htoDjs zIEGn"><div><h2 class="sc-chPdSV byfFmt sc-kAzzGY lkIJBD" font-size="3" color="heading">resolvers</h2></div></div><div class="sc-htoDjs zIEGn"><div><h2 class="sc-chPdSV byfFmt sc-kAzzGY lkIJBD" font-size="3" color="heading">data source</h2><ul class="sc-iAyFgw iLvMQI" font-size="2"><li class="sc-eHgmQL gmKbQu">REST API</li><li class="sc-eHgmQL gmKbQu">Database</li></ul></div></div><div class="sc-htoDjs zIEGn"><div><h2 class="sc-chPdSV byfFmt sc-kAzzGY lkIJBD" font-size="3" color="heading">fetch data</h2><ul class="sc-iAyFgw iLvMQI" font-size="2"><li class="sc-eHgmQL gmKbQu">GraphiQL</li><li class="sc-eHgmQL gmKbQu">Apollo client</li></ul></div></div><div class="sc-htoDjs zIEGn"><div><h2 class="sc-chPdSV byfFmt sc-kAzzGY lkIJBD" font-size="3" color="heading">The End</h2></div></div></div></div></div></div><div class="sc-htpNat cXgiMa"><div class="sc-bdVaJa eCoqJu"><button class="sc-bwzfXH kaUAEP" title="go to: 0" color="text"></button><button class="sc-bwzfXH gtARdA" title="go to: 1" color="text"></button><button class="sc-bwzfXH gtARdA" title="go to: 2" color="text"></button><button class="sc-bwzfXH gtARdA" title="go to: 3" color="text"></button><button class="sc-bwzfXH gtARdA" title="go to: 4" color="text"></button><button class="sc-bwzfXH gtARdA" title="go to: 5" color="text"></button><button class="sc-bwzfXH gtARdA" title="go to: 6" color="text"></button><button class="sc-bwzfXH gtARdA" title="go to: 7" color="text"></button><button class="sc-bwzfXH gtARdA" title="go to: 8" color="text"></button><button class="sc-bwzfXH gtARdA" title="go to: 9" color="text"></button><button class="sc-bwzfXH gtARdA" title="go to: 10" color="text"></button><button class="sc-bwzfXH gtARdA" title="go to: 11" color="text"></button><button class="sc-bwzfXH gtARdA" title="go to: 12" color="text"></button></div></div><div class="sc-ifAKCX hOCGEu sc-bxivhb fbxTAJ" role="button" title="Previous Slide"></div><div class="sc-EHOje bNhvRs sc-bxivhb fbxTAJ" role="button" title="Next Slide"></div></div>
 <script src="main.js"></script>
 </body>
 </html>
